@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>users</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ol class="user-list">
+    <li *ngFor="let user of users; let i = index">
+      <span class="bg-{{user.color}}"></span>
+    </li>
+  </ol>
+</ion-content>
